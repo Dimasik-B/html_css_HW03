@@ -4,18 +4,42 @@
     padding: 0;
 }
 
+body {
+    font-family: "Open Sans";
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .logo__img {
     margin-top: 40px;
-    margin-left: 375px;
 }
 
 .logo__text {
-    margin-left: 375px;
+    margin-top: 45px;
+    margin-left: 14px;
 }
 
 .grow {
-    color: #000;
-    font-family: "Open Sans";
+    color: #000;    
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -24,20 +48,22 @@
 
 .be {
     color: #F25822;
-    font-family: "Open Sans";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
+
 .header__menu {
-    margin-left: 375px;
+    margin-top: 51px;
+    margin-left: 346px;
+    display: flex;
+    gap: 45px;
 }
 
 .menu__link {
     color: #000;
-    font-family: "Open Sans";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -46,36 +72,43 @@
 }
 .menu__home {
     color: #F25822;
-    font-family: "Open Sans";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
 }
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .main__title {
     margin-top: 143px;
-    margin-left: 373px;;
+    width: 522px;
     color: #000;
-    font-family: "Open Sans";
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
+
 .main__paragraph {
     margin-top: 17px;
-    margin-left: 373px;    
+    width: 478px;   
     color: #888;
-    font-family: "Open Sans";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
+
 .start__button {
     margin-top: 37px;
-    margin-left: 375px;
     border-radius: 50px;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
@@ -83,16 +116,15 @@
     height: 50px;
     
     color: #FFF;
-    font-family: "Open Sans";
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
+
 .watch__link {
     margin-left: 72px;
     color: #AAA;
-    font-family: "Open Sans";
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -102,12 +134,10 @@
 
 .main__img {
     margin-top: 83px;
-    margin-left: 375px;
 }
 
-.footer__imgs {
+.footer {
     padding-top: 97px;
-    padding-bottom: 96px;
-    padding-left: 345px;
-    padding-right: 375px;
+    display: flex;
+    gap: 48px;
 }
