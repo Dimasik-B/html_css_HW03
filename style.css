@@ -7,6 +7,19 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+button {
+    background: none; /* Убираем фон */
+    color: inherit; /* Наследуем цвет текста от родителя */
+    border: none; /* Убираем рамку */
+    padding: 0; /* Убираем отступы */
+    margin: 0; /* Убираем внешние отступы */
+    font-family: inherit; /* Наследуем шрифт от родителя */
+    font-size: inherit; /* Наследуем размер шрифта от родителя */
+    cursor: pointer; /* Устанавливаем курсор в виде "руки" при наведении */
+    outline: none; /* Убираем контур фокуса */
+    font-weight: normal; /* Ставим нормальную жирность текста */
+}
+
 .center {
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
