@@ -4,6 +4,15 @@
     padding: 0;
 }
 
+.logo__img {
+    margin-top: 40px;
+    margin-left: 375px;
+}
+
+.logo__text {
+    margin-left: 375px;
+}
+
 .grow {
     color: #000;
     font-family: "Open Sans";
@@ -22,7 +31,11 @@
     line-height: normal;
 }
 
-.menu_link {
+.header__menu {
+    margin-left: 375px;
+}
+
+.menu__link {
     color: #000;
     font-family: "Open Sans";
     font-size: 14px;
@@ -31,7 +44,7 @@
     line-height: normal;
     text-decoration: none;
 }
-.menu_home {
+.menu__home {
     color: #F25822;
     font-family: "Open Sans";
     font-size: 14px;
@@ -40,7 +53,9 @@
     line-height: normal;
     text-decoration: none;
 }
-.main_title {
+.main__title {
+    margin-top: 143px;
+    margin-left: 373px;;
     color: #000;
     font-family: "Open Sans";
     font-size: 60px;
@@ -48,7 +63,9 @@
     font-weight: 400;
     line-height: normal;
 }
-.main_text {
+.main__paragraph {
+    margin-top: 17px;
+    margin-left: 373px;    
     color: #888;
     font-family: "Open Sans";
     font-size: 20px;
@@ -56,7 +73,9 @@
     font-weight: 400;
     line-height: normal;
 }
-.start_button {
+.start__button {
+    margin-top: 37px;
+    margin-left: 375px;
     border-radius: 50px;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
@@ -70,7 +89,8 @@
     font-weight: 400;
     line-height: normal;
 }
-.watch_link {
+.watch__link {
+    margin-left: 72px;
     color: #AAA;
     font-family: "Open Sans";
     font-size: 15px;
@@ -78,4 +98,16 @@
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
+}
+
+.main__img {
+    margin-top: 83px;
+    margin-left: 375px;
+}
+
+.footer__imgs {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    padding-left: 345px;
+    padding-right: 375px;
 }
