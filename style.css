@@ -7,6 +7,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/*Блок от Виталия, чтобы сбросить стили агента для кнопок*/
 button {
     background: none; /* Убираем фон */
     color: inherit; /* Наследуем цвет текста от родителя */
@@ -41,16 +42,16 @@ button {
     justify-content: space-between;
 }
 
-.logo__img {
+.header__logo .logo__img {
     margin-top: 40px;
 }
 
-.logo__text {
+.header__logo .logo__text {
     margin-top: 45px;
     margin-left: 14px;
 }
 
-.grow {
+.logo__text .grow {
     color: #000;    
     font-size: 24px;
     font-style: normal;
@@ -58,7 +59,7 @@ button {
     line-height: normal;
 }
 
-.be {
+.logo__text .be {
     color: #F25822;
     font-size: 24px;
     font-style: normal;
@@ -74,7 +75,7 @@ button {
     gap: 45px;
 }
 
-.menu__link {
+.header__menu .menu__link a{
     color: #000;
     font-size: 14px;
     font-style: normal;
@@ -82,7 +83,7 @@ button {
     line-height: normal;
     text-decoration: none;
 }
-.menu__home {
+.header__menu .menu__home a{
     color: #F25822;
     font-size: 14px;
     font-style: normal;
@@ -91,7 +92,7 @@ button {
     text-decoration: none;
 }
 
-.main {
+.home__page {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -119,14 +120,13 @@ button {
     line-height: normal;
 }
 
-.start__button {
+.main__buttons .start__button {
     margin-top: 37px;
     border-radius: 50px;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
     width: 140px;
-    height: 50px;
-    
+    height: 50px;    
     color: #FFF;
     font-size: 15px;
     font-style: normal;
@@ -134,7 +134,7 @@ button {
     line-height: normal;
 }
 
-.watch__link {
+.main__buttons .watch__link {
     margin-left: 72px;
     color: #AAA;
     font-size: 15px;
@@ -148,8 +148,144 @@ button {
     margin-top: 83px;
 }
 
-.footer {
+.brand__logo {
     padding-top: 97px;
     display: flex;
     gap: 48px;
+}
+
+.features {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 61px;
+}
+
+.features__button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.features .button2 {
+    padding: 40px 34px;
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.features__button__title {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.features__button__text {
+    color: #666;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.features__button__link a{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    text-decoration: none;
+}
+
+.services {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    background: #FAFAFA;
+}
+
+.services__text__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.services__title {
+    color: #000;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.services__text {
+    color: #888;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.services__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.services__cards .services__card {
+    display: flex;
+    padding: 0px 34px 34px 34px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex: 1 0 0;
+    background: #FFF;
+}
+
+.services__card__title {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.services__card__text {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.services__card__button {
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 56px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);        
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
